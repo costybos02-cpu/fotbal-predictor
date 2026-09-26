@@ -1,12 +1,117 @@
-verificate.</p>
-      </div>
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Predicții Fotbal</title>
+
+<style>
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f3f6f8;
+  color:#14283d;
+}
+
+header{
+  background:#123f5c;
+  color:white;
+  padding:25px 18px;
+  text-align:center;
+}
+
+header h1{
+  margin:0;
+  font-size:28px;
+}
+
+header p{
+  margin:8px 0 0;
+  opacity:.85;
+}
+
+.container{
+  max-width:700px;
+  margin:auto;
+  padding:18px;
+}
+
+.card{
+  background:white;
+  border-radius:16px;
+  padding:18px;
+  margin-bottom:16px;
+  box-shadow:0 3px 12px rgba(0,0,0,.08);
+}
+
+.title{
+  font-size:20px;
+  font-weight:bold;
+  margin-bottom:8px;
+}
+
+.info{
+  color:#607d8b;
+  line-height:1.5;
+}
+
+.loading{
+  text-align:center;
+  padding:35px 10px;
+  color:#607d8b;
+}
+
+.notice{
+  background:#fff8e1;
+  border-radius:12px;
+  padding:14px;
+  color:#6d5500;
+}
+
+footer{
+  text-align:center;
+  padding:25px;
+  color:#78909c;
+  font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>⚽ Predicții Fotbal</h1>
+  <p>Statistici și analiză pentru meciuri</p>
+</header>
+
+<main class="container">
+
+  <div class="card">
+    <div class="title">📅 Meciurile zilei</div>
+    <div class="info">
+      Aplicația va încărca aici meciurile reale.
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="title">📊 Predicții</div>
+
+    <div class="notice">
+      Nu afișăm procente sau statistici până când datele reale nu sunt disponibile și verificate.
     </div>
 
-  </main>
+    <div class="loading">
+      Așteptăm conectarea la sursa de date...
+    </div>
+  </div>
 
-  <footer>
-    Football data provided by the Football-Data.org API
-  </footer>
+</main>
+
+<footer>
+  Football data provided by the Football-Data.org API
+</footer>
 
 </body>
 </html>
